@@ -1,0 +1,20 @@
+:root{--bg:#f8f9fb;--fg:#111;--muted:#666;--accent:#2563eb}
+*{box-sizing:border-box}
+body{font-family:system-ui,-apple-system,Segoe UI,Roboto,'Helvetica Neue',Arial;margin:0;background:var(--bg);color:var(--fg)}
+.inner{max-width:1000px;margin:0 auto;padding:1rem}
+.site-header{background:white;border-bottom:1px solid #e6e9ee}
+.site-header .inner{display:flex;align-items:center;gap:1rem}
+.brand{margin:0;font-size:1.25rem}
+.brand a{color:inherit;text-decoration:none}
+.main-nav{margin-left:1rem;display:flex;gap:1rem}
+.main-nav a{color:var(--fg);text-decoration:none}
+.lang{margin-left:auto}
+.content{padding:2rem}
+.btn{display:inline-block;padding:.6rem 1rem;background:var(--accent);color:white;text-decoration:none;border-radius:6px}
+.compat-table{width:100%;border-collapse:collapse;margin-top:1rem}
+.compat-table th,.compat-table td{padding:.6rem;border:1px solid #e6e9ee;text-align:left}
+.screens-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:1rem;margin-top:1rem}
+.screenshot{min-height:120px;background:white;border:1px dashed #cbd5e1;display:flex;align-items:center;justify-content:center;color:var(--muted)}
+.placeholder{color:#9aa6bd}
+.site-footer{border-top:1px solid #e6e9ee;background:white}
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}

@@ -1,0 +1,6 @@
+title: WIE
+description: Web-based WIPI / SKVM emulator for legacy mobile software
+baseurl: ""
+url: "https://dlunch.github.io/wie_site"
+markdown: kramdown
+theme: minima
