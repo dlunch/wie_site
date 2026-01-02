@@ -5,9 +5,11 @@ title: Home
 
 ## Welcome to WIE
 
-[Open the web version](https://wie.dlunch.net){: .btn }
+WIE runs legacy mobile apps based on WIPI/SKVM/ directly in your browser. Try the live web version.
 
-WIE runs WIPI/SKVM and legacy mobile software directly in your browser using an in-browser emulator. Try the live web version and review per-app compatibility.
+<a href="https://wie.dlunch.net" class="btn">Open web version</a>
+
+<p><small class="release-note">iOS and Android native releases are planned but may take some time.</small></p>
 
 ## Screenshots
 
