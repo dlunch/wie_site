@@ -6,12 +6,12 @@ title: Home
 ## Welcome to WIE
 
 [Open the web version](https://wie.dlunch.net){: .btn }
+
 WIE runs WIPI/SKVM and legacy mobile software directly in your browser using an in-browser emulator. Try the live web version and review per-app compatibility.
 
 ## Screenshots
 
 <div class="screens-grid">
-</div>
   <img src="/images/1.png" alt="screenshot 1" class="screenshot" />
   <img src="/images/2.png" alt="screenshot 2" class="screenshot" />
   <img src="/images/3.png" alt="screenshot 3" class="screenshot" />
