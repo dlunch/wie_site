@@ -13,8 +13,10 @@ body{font-family:system-ui,-apple-system,Segoe UI,Roboto,'Helvetica Neue',Arial;
 .btn{display:inline-block;padding:.6rem 1rem;background:var(--accent);color:white;text-decoration:none;border-radius:6px}
 .compat-table{width:100%;border-collapse:collapse;margin-top:1rem}
 .compat-table th,.compat-table td{padding:.6rem;border:1px solid #e6e9ee;text-align:left}
-.screens-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:1rem;margin-top:1rem}
-.screenshot{min-height:120px;background:white;border:1px dashed #cbd5e1;display:flex;align-items:center;justify-content:center;color:var(--muted)}
+.screens-grid{display:flex;gap:1rem;margin-top:1rem;overflow-x:auto;padding:0.5rem 0;-webkit-overflow-scrolling:touch;scroll-snap-type:x proximity}
+.screens-grid::-webkit-scrollbar{height:10px}
+.screens-grid::-webkit-scrollbar-thumb{background:#d1d5db;border-radius:6px}
+.screenshot{flex:0 0 auto;height:20vh;max-height:25vh;width:auto;object-fit:contain;background:white;border:1px solid #e6e9ee;padding:4px;border-radius:6px;scroll-snap-align:start}
 .placeholder{color:#9aa6bd}
 .site-footer {
     padding: 30px 0;
