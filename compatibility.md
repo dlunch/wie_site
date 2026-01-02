@@ -6,7 +6,7 @@ permalink: /compatibility.html
 
 ## Compatibility List
 
-This compatibility table lists per-app compatibility for the emulator. Add or update rows for specific apps, notes about known issues, and platform support.
+This compatibility table lists per-app compatibility for the emulator.
 
 | Vendor | Id         | Api       | Name                | Status   | Note |
 | ------ | ---------- | --------- | ------------------- | -------- | ---- |
