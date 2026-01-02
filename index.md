@@ -5,7 +5,7 @@ title: Home
 
 ## Welcome to WIE
 
-WIE runs legacy mobile apps based on WIPI/SKVM/ directly in your browser. Try the live web version.
+WIE runs legacy mobile apps based on WIPI/SKVM/J2ME directly in your browser. Try the live web version.
 
 <a href="https://wie.dlunch.net" class="btn">Open web version</a>
 
