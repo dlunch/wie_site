@@ -18,7 +18,3 @@ WIE runs WIPI/SKVM and legacy mobile software directly in your browser using an 
   <img src="/images/4.png" alt="screenshot 4" class="screenshot" />
   <img src="/images/5.png" alt="screenshot 5" class="screenshot" />
 </div>
-
-## About WIE
-
-WIE is a web-based emulator for WIPI and SKVM. It aims to reproduce runtime behavior including input, display and audio so developers and enthusiasts can run legacy mobile software in modern browsers. The web version runs on most modern desktop and mobile browsers; iOS and Android native releases are planned.
