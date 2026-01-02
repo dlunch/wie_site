@@ -24,11 +24,19 @@ body{font-family:system-ui,-apple-system,Segoe UI,Roboto,'Helvetica Neue',Arial;
 .screenshot{flex:0 0 auto;height:20vh;max-height:50vh;width:auto;object-fit:contain;background:white;border:1px solid #e6e9ee;padding:4px;border-radius:6px;scroll-snap-align:start}
 .placeholder{color:#9aa6bd}
 .site-footer {
-    padding: 30px 0;
-    border-top: 1px solid #e8e8e8;
-    background-color: #fdfdfd;
+    padding: 2.5rem 0;
+    background: linear-gradient(180deg,#f6f8fa 0%,#eef2f6 100%);
+    border-top: 1px solid rgba(14,20,30,0.04);
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.6), 0 -6px 18px rgba(16,24,40,0.03);
     font-size: 16px;
+    color: var(--muted);
 }
+
+.site-footer .wrapper{max-width:1000px;margin:0 auto;padding:0 1rem}
+.footer-col-wrapper{display:flex;gap:1rem;align-items:center;flex-wrap:wrap}
+.footer-col{flex:1 1 180px}
+.site-footer a{color:var(--fg);text-decoration:none}
+.site-footer .copyright{margin:0}
 
 .footer-divider {
     border: 0;
