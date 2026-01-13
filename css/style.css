@@ -2,11 +2,11 @@
   --bg: #f8fafc;
   --fg: #0f172a;
   --muted: #64748b;
-  --accent: #6366f1;
-  --accent-light: #818cf8;
-  --accent-dark: #4f46e5;
-  --gradient-start: #6366f1;
-  --gradient-end: #a855f7;
+  --accent: #fbbf24;
+  --accent-light: #fcd34d;
+  --accent-dark: #f59e0b;
+  --gradient-start: #fdba74;
+  --gradient-end: #fef08a;
   --card-bg: #ffffff;
   --border: #e2e8f0;
 }
@@ -85,8 +85,8 @@ body {
     var(--gradient-start),
     var(--gradient-end)
   );
-  color: #fff !important;
-  -webkit-text-fill-color: #fff;
+  color: var(--fg) !important;
+  -webkit-text-fill-color: var(--fg);
   padding: 0.5rem 1rem;
   border-radius: 8px;
   font-weight: 600;
@@ -97,7 +97,7 @@ body {
 }
 .btn-github:hover,
 .btn-bug-report:hover {
-  background: linear-gradient(135deg, var(--accent-dark), #9333ea);
+  background: linear-gradient(135deg, var(--accent-dark), #fdba74);
   transform: translateY(-1px);
   box-shadow: 0 4px 12px rgba(99, 102, 241, 0.3);
 }
@@ -109,7 +109,11 @@ body {
 
 /* Hero Section */
 .hero {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%);
+  background: linear-gradient(
+    135deg,
+    var(--gradient-start) 50%,
+    var(--gradient-end) 100%
+  );
   padding: 1.5rem 1.5rem;
   text-align: center;
   position: relative;
@@ -134,13 +138,12 @@ body {
 .hero-title {
   font-size: 3rem;
   font-weight: 800;
-  color: white;
+  color: var(--fg);
   margin: 0 0 1rem;
-  text-shadow: 0 2px 20px rgba(0, 0, 0, 0.15);
 }
 .hero-subtitle {
   font-size: 1.25rem;
-  color: rgba(255, 255, 255, 0.95);
+  color: var(--fg);
   margin: 0 0 2rem;
   line-height: 1.8;
 }
@@ -311,11 +314,7 @@ body {
   background: white;
 }
 .content table th {
-  background: linear-gradient(
-    135deg,
-    var(--gradient-start),
-    var(--gradient-end)
-  );
+  background: var(--gradient-start);
   color: white;
   font-weight: 600;
   border-color: transparent;
