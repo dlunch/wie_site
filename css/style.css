@@ -79,7 +79,8 @@ body {
   background: rgba(99, 102, 241, 0.08);
 }
 .btn-github,
-.btn-bug-report {
+.btn-bug-report,
+.btn-sponsor {
   background: linear-gradient(
     135deg,
     var(--gradient-start),
@@ -96,10 +97,18 @@ body {
   transition: all 0.2s ease;
 }
 .btn-github:hover,
-.btn-bug-report:hover {
+.btn-bug-report:hover,
+.btn-sponsor:hover {
   background: linear-gradient(135deg, var(--accent-dark), #fdba74);
   transform: translateY(-1px);
   box-shadow: 0 4px 12px rgba(99, 102, 241, 0.3);
+}
+.btn-sponsor {
+  background: linear-gradient(135deg, #ea4aaa, #f78fb3);
+}
+.btn-sponsor:hover {
+  background: linear-gradient(135deg, #d63384, #ea4aaa);
+  box-shadow: 0 4px 12px rgba(234, 74, 170, 0.3);
 }
 
 /* Content */
@@ -441,6 +450,11 @@ body {
 .site-footer .copyright a {
   display: inline;
 }
+.footer-separator {
+  margin: 0 0.5rem;
+  color: var(--border);
+}
+
 
 .footer-divider {
   border: 0;
@@ -522,12 +536,14 @@ body {
     font-size: 0.85rem;
   }
   .btn-github,
-  .btn-bug-report {
+  .btn-bug-report,
+  .btn-sponsor {
     padding: 0.4rem 0.5rem;
     font-size: 0.85rem;
   }
   .btn-github span,
-  .btn-bug-report span {
+  .btn-bug-report span,
+  .btn-sponsor span {
     display: none;
   }
   .hero {

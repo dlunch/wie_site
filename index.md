@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 홈
+title: WIE - 웹 기반 WIPI/SKVM 에뮬레이터
 ---
 
 <div class="hero">

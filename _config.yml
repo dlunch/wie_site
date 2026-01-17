@@ -1,5 +1,5 @@
 title: WIE
 description: 레거시 모바일 소프트웨어를 위한 웹 기반 WIPI / SKVM 에뮬레이터
 baseurl: ""
-url: "https://dlunch.github.io/wie_site"
+url: "https://wie-site.dlunch.net"
 markdown: kramdown
