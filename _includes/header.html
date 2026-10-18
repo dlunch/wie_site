@@ -2,8 +2,8 @@
   <div class="inner">
     <h1 class="brand"><a href="/">WIE</a></h1>
     <nav class="main-nav">
-      <a href="/">홈</a>
-      <a href="/compatibility.html">지원 현황</a>
+      <a href="/" data-i18n="nav_home">{{ site.data.translations.en.nav_home }}</a>
+      <a href="/compatibility.html" data-i18n="compatibility_title">{{ site.data.translations.en.compatibility_title }}</a>
       <a href="/faq.html">FAQ</a>
       <a
         href="https://github.com/dlunch/wie"
@@ -19,19 +19,29 @@
         target="_blank"
         rel="noopener noreferrer"
         class="btn-bug-report"
-        aria-label="버그 제보"
+        aria-label="{{ site.data.translations.en.nav_bug }}"
+        data-i18n-aria-label="nav_bug"
       >
-        <i class="fas fa-bug" aria-hidden="true"></i><span> 버그 제보</span>
+        <i class="fas fa-bug" aria-hidden="true"></i><span data-i18n="nav_bug">{{ site.data.translations.en.nav_bug }}</span>
       </a>
       <a
         href="https://github.com/sponsors/dlunch"
         target="_blank"
         rel="noopener noreferrer"
         class="btn-sponsor"
-        aria-label="후원"
+        aria-label="{{ site.data.translations.en.nav_sponsor }}"
+        data-i18n-aria-label="nav_sponsor"
       >
-        <i class="fas fa-heart" aria-hidden="true"></i><span> 후원</span>
+        <i class="fas fa-heart" aria-hidden="true"></i><span data-i18n="nav_sponsor">{{ site.data.translations.en.nav_sponsor }}</span>
       </a>
     </nav>
+    <div class="language-setting" hidden>
+      <label for="language-select" data-i18n="language_label">{{ site.data.translations.en.language_label }}</label>
+      <select id="language-select">
+        <option value="system" data-i18n="language_system">{{ site.data.translations.en.language_system }}</option>
+        <option value="ko" lang="ko">한국어</option>
+        <option value="en" lang="en">English</option>
+      </select>
+    </div>
   </div>
 </header>

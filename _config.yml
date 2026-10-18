@@ -1,5 +1,8 @@
 title: WIE
-description: 레거시 모바일 소프트웨어를 위한 웹 기반 WIPI / SKVM 에뮬레이터
+description: A web-based WIPI / SKVM emulator for legacy mobile software
 baseurl: ""
 url: "https://wie-site.dlunch.net"
 markdown: kramdown
+exclude:
+  - docs
+  - tests

@@ -42,6 +42,7 @@ body {
   display: flex;
   align-items: center;
   gap: 1.5rem;
+  flex-wrap: wrap;
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
@@ -64,6 +65,8 @@ body {
 .main-nav {
   margin-left: auto;
   display: flex;
+  flex-wrap: wrap;
+  align-items: center;
   gap: 0.5rem;
 }
 .main-nav a {
@@ -109,6 +112,27 @@ body {
 .btn-sponsor:hover {
   background: linear-gradient(135deg, #d63384, #ea4aaa);
   box-shadow: 0 4px 12px rgba(234, 74, 170, 0.3);
+}
+
+/* Language setting */
+.language-setting:not([hidden]) {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-left: auto;
+  font-size: 0.85rem;
+}
+.language-setting select {
+  font: inherit;
+  color: var(--fg);
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 0.4rem;
+}
+.language-setting select:focus-visible {
+  outline: 2px solid var(--accent-dark);
+  outline-offset: 2px;
 }
 
 /* Content */

@@ -4,13 +4,15 @@
       <div class="footer-col footer-col-1">
         <p class="copyright">
           &copy; {{ site.time | date: '%Y' }}
-          <a href="https://github.com/dlunch">dlunch</a>
+          <a href="https://github.com/dlunch" target="_blank" rel="noopener noreferrer">dlunch</a>
           <span class="footer-separator">|</span>
           <a
             href="#"
             class="footer-email"
+            aria-label="{{ site.data.translations.en.footer_email }}"
+            data-i18n-aria-label="footer_email"
             onclick="this.href='mai'+'lto:'+'wie'+'@'+'dlun'+'.ch';return true;"
-          ><i class="fas fa-envelope"></i></a>
+          ><i class="fas fa-envelope" aria-hidden="true"></i></a>
         </p>
       </div>
     </div>
@@ -18,17 +20,8 @@
     <hr class="footer-divider" />
 
     <div class="footer-disclaimer">
-      <p>
-        <strong>법적 고지:</strong> "wie"는 교육 및 보존 목적으로만 개발된
-        비공식 오픈소스 에뮬레이터 프로젝트입니다. 이 프로젝트는 어떤 게임
-        개발사나 퍼블리셔와도 제휴, 보증 또는 연관되어 있지 않습니다.
-      </p>
-      <p class="warning-text">
-        이 웹사이트와 관련 저장소는
-        <u>불법 게임 파일을 호스팅, 배포하거나 링크를 제공하지 않습니다.</u>
-        표시된 모든 게임 스크린샷은 각 저작권자의 소유이며, 호환성 시연
-        목적으로만 사용됩니다.
-      </p>
+      <p data-i18n-html="footer_legal">{{ site.data.translations.en.footer_legal }}</p>
+      <p class="warning-text" data-i18n-html="footer_warning">{{ site.data.translations.en.footer_warning }}</p>
     </div>
   </div>
 </footer>
