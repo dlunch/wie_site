@@ -5,6 +5,10 @@ _site/
 .playwright-mcp/
 node_modules/
 
+# Local documentation and checks
+docs/
+tests/
+
 # OS files
 .DS_Store
 Thumbs.db
