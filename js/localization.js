@@ -16,7 +16,7 @@
       ? (navigator.language.toLowerCase().split('-')[0] === 'ko' ? 'ko' : 'en')
       : preference;
     document.documentElement.lang = language;
-    select.value = preference;
+    select.value = language;
     for (const node of document.querySelectorAll('[data-i18n]')) {
       node.textContent = translate(node.dataset.i18n);
     }
@@ -33,8 +33,7 @@
   select.addEventListener('change', () => {
     preference = select.value;
     try {
-      if (preference === 'system') localStorage.removeItem('wie-language');
-      else localStorage.setItem('wie-language', preference);
+      localStorage.setItem('wie-language', preference);
     } catch {
       // Keep the current page selection even when it cannot be saved.
     }

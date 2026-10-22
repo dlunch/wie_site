@@ -36,9 +36,12 @@
       </a>
     </nav>
     <div class="language-setting" hidden>
-      <label for="language-select" data-i18n="language_label">{{ site.data.translations.ko.language_label }}</label>
-      <select id="language-select">
-        <option value="system" data-i18n="language_system">{{ site.data.translations.ko.language_system }}</option>
+      <label for="language-select" aria-hidden="true">🌐</label>
+      <select
+        id="language-select"
+        aria-label="{{ site.data.translations.ko.language_label }}"
+        data-i18n-aria-label="language_label"
+      >
         <option value="ko" lang="ko">한국어</option>
         <option value="en" lang="en">English</option>
       </select>
