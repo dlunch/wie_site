@@ -13,7 +13,7 @@ title_key: home_title
     </div>
     <div class="store-buttons">
       <a href="#" class="btn btn-store" data-i18n-alert="store_soon" aria-label="{{ site.data.translations.ko.store_apple }}" data-i18n-aria-label="store_apple"><i class="fab fa-apple" aria-hidden="true"></i></a>
-      <a href="#" class="btn btn-store" data-i18n-alert="store_soon" aria-label="{{ site.data.translations.ko.store_google }}" data-i18n-aria-label="store_google"><i class="fab fa-google-play" aria-hidden="true"></i></a>
+      <a href="https://play.google.com/store/apps/details?id=net.dlunch.wie" target="_blank" rel="noopener noreferrer" class="btn btn-store" aria-label="{{ site.data.translations.ko.store_google }}" data-i18n-aria-label="store_google"><i class="fab fa-google-play" aria-hidden="true"></i></a>
     </div>
   </div>
 </div>
